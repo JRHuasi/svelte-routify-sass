@@ -1,0 +1,42 @@
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: $fondoMenu;
+  // position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+	justify-content: space-around;
+  gap: 0 15px;
+  
+  /* Links inside the navbar */
+  a {
+    // float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  img{
+    width: 100%;
+		max-width: 275px;
+  }
+}
+
+#barra{
+	display: flex;
+	justify-content: space-around;
+	background: #ccffcc ;
+	height: 40px;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 10px;
+	a{
+		color: black;
+		&:hover{
+			color: white;
+		}
+	}
+}

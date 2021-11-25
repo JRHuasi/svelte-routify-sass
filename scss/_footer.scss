@@ -1,0 +1,19 @@
+#footer {
+  overflow: hidden;
+  background-color: $fondoMenu;
+  width: 100%; /* Full width */
+  display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	color: #fff;
+	#tafi{
+		font-weight: bold;
+		img{
+			height: 30px;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+    "name": "routify-starter",
+    "private": true,
+    "scripts": {
+        "dev": "run-p dev:*",
+        "dev:routify": "routify",
+        "dev:vite": "vite",
+        "preview": "vite preview",
+        "build": "run-s build:*",
+        "build:routify": "routify -b",
+        "build:vite": "vite build",
+        "build:sass": "node-sass --recursive --output dist/build --source-map true --source-map-contents scss",
+        "watch:sass": "npm run build:sass && npm run build:sass -- --watch"
+    },
+    "devDependencies": {
+        "@roxi/routify": "^2.18.3",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
+        "autoprefixer": "^10.2.5",
+        "node-sass": "^6.0.1",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.3.11",
+        "postcss-import": "^14.0.0",
+        "rollup-plugin-scss": "^3.0.0",
+        "sass": "^1.43.4",
+        "svelte": "^3.35.0",
+        "svelte-preprocess": "^4.7.0",
+        "vite": "^2.0.5",
+        "vite-plugin-pwa": "^0.11.6"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "@fortawesome/free-brands-svg-icons": "^5.15.3",
+        "@fortawesome/free-regular-svg-icons": "^5.15.3",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "firebase": "^8.6.8",
+        "svelte-fa": "^2.2.0",
+        "uuid": "^3.4.0"
+    }
+}
