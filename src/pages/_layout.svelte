@@ -1,2 +1,9 @@
+<script>
+	import Nav from './_componentes/Nav.svelte';
+
+</script>
 <!-- routify:options preload="proximity" -->
-<slot />
+<Nav />
+<div id="root" class="container">
+	<slot />
+</div>
