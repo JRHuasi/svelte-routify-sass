@@ -13,26 +13,26 @@
         "watch:sass": "npm run build:sass && npm run build:sass -- --watch"
     },
     "devDependencies": {
-        "@roxi/routify": "^2.18.3",
+        "@roxi/routify": "^2.18.5",
         "@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
-        "autoprefixer": "^10.2.5",
+        "autoprefixer": "^10.4.4",
         "node-sass": "^6.0.1",
         "npm-run-all": "^4.1.5",
-        "postcss": "^8.3.11",
-        "postcss-import": "^14.0.0",
+        "postcss": "^8.4.12",
+        "postcss-import": "^14.1.0",
         "rollup-plugin-scss": "^3.0.0",
-        "sass": "^1.43.4",
-        "svelte": "^3.35.0",
-        "svelte-preprocess": "^4.10.1",
-        "vite": "^2.0.5",
-        "vite-plugin-pwa": "^0.11.6"
+        "sass": "^1.49.11",
+        "svelte": "^3.46.6",
+        "svelte-preprocess": "^4.10.5",
+        "vite": "^2.9.1",
+        "vite-plugin-pwa": "^0.11.13"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.3",
-        "@fortawesome/free-brands-svg-icons": "^5.15.3",
-        "@fortawesome/free-regular-svg-icons": "^5.15.3",
-        "@fortawesome/free-solid-svg-icons": "^5.15.3",
-        "svelte-fa": "^2.2.0",
-        "uuid": "^3.4.0"
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@fortawesome/free-brands-svg-icons": "^5.15.4",
+        "@fortawesome/free-regular-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "nanoid": "^3.3.2",
+        "svelte-fa": "^2.4.0"
     }
 }
