@@ -5,7 +5,7 @@
     metatags.description = 'Description coming soon...'
 </script>
 
-<h1>EDUCA NET</h1>
+<h1>Routify Platform</h1>
 
 
 
