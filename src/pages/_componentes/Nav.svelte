@@ -6,6 +6,7 @@
 
 
   let show = false;
+  let login = true;
 
 	function handleBurger() {
     show = !show;
@@ -15,7 +16,7 @@
 <aside>
   <nav class="mobile-nav">
     <span class="burger" on:click={handleBurger}>☰</span>
-    <span class="title">Educa Net</span>    
+    <span class="title">Routify Platform</span>    
   </nav>
   <nav class:show on:click={() => (show = false)}>
 		<a href=".">
@@ -26,16 +27,14 @@
         {@html name}
       </a>
     {/each}
-		<a class="link" href={$url('login')}>
-			<Fa icon={faUser} /> Login
-		</a>
-		<a class="link" href={$url('login')}>
-			<Fa icon={faSignInAlt} />
-		</a>
-</nav>
+    {#if login}
+      <a class="link" href={$url('login')}>
+        <Fa icon={faUser} /> Login
+      </a>
+    {:else}
+      <a class="link" href={$url('login')}>
+        <Fa icon={faSignInAlt} />
+      </a>
+    {/if}
+  </nav>
 </aside>
-
-<style lang="scss">
-  
-</style>
-

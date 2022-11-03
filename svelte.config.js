@@ -1,7 +1,10 @@
 const preprocess = require('svelte-preprocess');
 
 module.exports = {
-    disableDependencyReinclusion: ['@roxi/routify'],
+    vitePlugin:{
+        disableDependencyReinclusion: ['@roxi/routify']
+    },
+    
 
     preprocess: [
         preprocess(),

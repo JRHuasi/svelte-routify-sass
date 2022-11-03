@@ -14,25 +14,25 @@
     },
     "devDependencies": {
         "@roxi/routify": "^2.18.8",
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
+        "@sveltejs/vite-plugin-svelte": "^1.0.5",
         "autoprefixer": "^10.4.7",
         "node-sass": "^7.0.1",
         "npm-run-all": "^4.1.5",
         "postcss": "^8.4.14",
         "postcss-import": "^14.1.0",
         "rollup-plugin-scss": "^3.0.0",
-        "sass": "^1.52.3",
+        "sass": "^1.55.0",
         "svelte": "^3.48.0",
-        "svelte-preprocess": "^4.10.5",
-        "vite": "^2.9.12",
-        "vite-plugin-pwa": "^0.11.13"
+        "svelte-preprocess": "^4.10.7",
+        "vite": "^3.1.0",
+        "vite-plugin-pwa": "^0.13.2"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.4",
-        "@fortawesome/free-brands-svg-icons": "^5.15.4",
-        "@fortawesome/free-regular-svg-icons": "^5.15.4",
-        "@fortawesome/free-solid-svg-icons": "^5.15.4",
-        "nanoid": "^3.3.4",
-        "svelte-fa": "^2.4.0"
+        "@fortawesome/fontawesome-free": "^6.2.0",
+        "@fortawesome/free-brands-svg-icons": "^6.2.0",
+        "@fortawesome/free-regular-svg-icons": "^6.2.0",
+        "@fortawesome/free-solid-svg-icons": "^6.2.0",
+        "svelte-fa": "^3.0.3",
+        "uuid": "^9.0.0"
     }
 }

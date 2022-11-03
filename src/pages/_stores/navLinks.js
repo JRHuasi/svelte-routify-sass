@@ -1,8 +1,8 @@
 export const _enlacesMenu = [	
-	["./caracteristicas", "Características"],
-	["./beneficios", "Beneficios"],
-	["./testimonios", "Testimonios"],
-	["./precios", "Precios"],
+	["./aboutus", "About Us"],
+	["./benefits", "Beneficios"],
+	["./community", "Community"],
+	["./prices", "Prices"],
 	["./blog", "Blog"],
-	["./contacto", "Contacto"],
+	["./contact", "Contact"],
 ];
