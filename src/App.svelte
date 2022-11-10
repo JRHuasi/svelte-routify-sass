@@ -1,9 +1,9 @@
 <script>
   import { Router } from "@roxi/routify";
   import { routes } from "../.routify/routes";
-  // import GlobalScssImports from "./GlobalScssImports.svelte";
+  import GlobalScssImports from "./GlobalScssImports.svelte";
   
 </script>
 
-<!-- <GlobalScssImports /> -->
+<GlobalScssImports />
 <Router {routes} />
