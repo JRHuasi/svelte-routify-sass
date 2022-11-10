@@ -5,7 +5,7 @@
     metatags.description = 'Description coming soon...'
 </script>
 
-<h1>Routify Platform</h1>
+<h1>Routify Sass Base Platform</h1>
 
 
 
